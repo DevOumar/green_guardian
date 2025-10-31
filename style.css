@@ -1,0 +1,54 @@
+/* ---------- BARRE DE NAVIGATION ---------- */
+.navbar {
+    background-color: #0d4625;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    font-size: 1.6rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar h1 span {
+    color: #7de37d;
+}
+
+.navbar p {
+    font-size: 0.9rem;
+    opacity: 0.85;
+    margin: 0;
+}
+
+/* ---------- STYLE GLOBAL ---------- */
+body {
+    background-color: #f9fff9 !important;
+}
+
+.block-container {
+    padding-top: 1rem !important;
+}
+
+.stButton>button {
+    background-color: #0d4625 !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+.stButton>button:hover {
+    background-color: #166736 !important;
+}
+
+.stProgress .st-bo {
+    background-color: #7de37d !important;
+}
+
+footer {visibility: hidden;}
